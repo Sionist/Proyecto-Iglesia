@@ -33,10 +33,10 @@ namespace Iglesia_luz_y_vida
             persona.nombres = txtNombres.Text;
             persona.apellidos = txtApellidos.Text;
             persona.direccion = txtDireccion.Text;
-            persona.telefono = txtTelefono.Text;
+            //persona.telefono = txtTelefono.Text;
             persona.email = txtEmail.Text;
             persona.fecha_nacimiento = Convert.ToDateTime(dtFechaNacimiento.Text);
-            persona.estatus = txtEstatus.Text;
+            //persona.estatus = txtEstatus.Text;
 
             personaNC personaNC = new personaNC();
             personaNC.nuevo(persona);

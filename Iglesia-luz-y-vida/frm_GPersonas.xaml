@@ -1,9 +1,12 @@
 ﻿<Window x:Class="Iglesia_luz_y_vida.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Gestión de Personas" Height="495.25" Width="914.832">
-    <Grid>
-        <Rectangle HorizontalAlignment="Left" Height="79" Margin="-1,-1,0,0" Stroke="Black" VerticalAlignment="Top" Width="907.832">
+        Title="Gestión de Personas" Height="644.25" Width="914.832">
+    <Grid x:Name="gPersonaForm">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Rectangle HorizontalAlignment="Left" Height="79" Margin="-1,-1,0,0" Stroke="Black" VerticalAlignment="Top" Width="908">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF0F2751" Offset="0"/>
@@ -12,8 +15,8 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
-        <GroupBox Header=" Buscar por: " HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="907.832" FontSize="14.667" Margin="-1,0,0,0" BorderThickness="0,1" Foreground="White" Opacity="0.72" FontFamily="SimSun"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="475,29.04,0,0" VerticalAlignment="Top" Width="75" Height="23.96" RenderTransformOrigin="0.547,1.043" Click="Button_Click">
+        <GroupBox Header=" Buscar por: " HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="908" FontSize="14.667" Margin="-1,0,0,0" BorderThickness="0,1" Foreground="White" Opacity="0.72" FontFamily="SimSun"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="475,29,0,0" VerticalAlignment="Top" Width="75" Height="24" RenderTransformOrigin="0.547,1.043" Click="Button_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF0B7E2F" Offset="0"/>
@@ -22,32 +25,64 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <ComboBox HorizontalAlignment="Left" Margin="101,30,0,0" VerticalAlignment="Top" Width="120" Height="23"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="226,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" FontSize="12"/>
-        <Rectangle HorizontalAlignment="Left" Height="325" Margin="35.68,107,0,0" Stroke="#FF060606" VerticalAlignment="Top" Width="427.361" RadiusX="3" RadiusY="4" StrokeThickness="2"/>
-        <Rectangle HorizontalAlignment="Left" Height="36" Margin="35.68,107,0,0" RadiusY="4" RadiusX="3" Stroke="#FF060606" VerticalAlignment="Top" Width="427.361" Fill="Black"/>
+        <ComboBox x:Name="cbBuscarPor" HorizontalAlignment="Left" Margin="101,30,0,0" VerticalAlignment="Top" Width="120" Height="23"/>
+        <TextBox x:Name="txtBuscarPor" HorizontalAlignment="Left" Height="23" Margin="226,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244" FontSize="12"/>
+        <Rectangle HorizontalAlignment="Left" Height="325" Margin="36,107,0,0" Stroke="#FF060606" VerticalAlignment="Top" Width="427" RadiusX="3" RadiusY="4" StrokeThickness="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="36" Margin="36,107,0,0" RadiusY="4" RadiusX="3" Stroke="#FF060606" VerticalAlignment="Top" Width="427" Fill="Black"/>
         <Label Content="Coincidencias:" HorizontalAlignment="Left" Margin="199,110,0,0" VerticalAlignment="Top" BorderBrush="#FFEEDFDF" Foreground="#FFF7EFEF" RenderTransformOrigin="0.502,-0.002" FontSize="14.667"/>
-        <DataGrid x:Name="dgCoincidencias" HorizontalAlignment="Left" Margin="49.18,148,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.833,-0.538" Width="404.116" Height="275" CanUserReorderColumns="False"/>
-        <Rectangle HorizontalAlignment="Left" Height="325" Margin="486.259,107,0,0" Stroke="#FF060606" VerticalAlignment="Top" Width="378.851" RadiusX="3" RadiusY="4" StrokeThickness="2"/>
-        <Rectangle HorizontalAlignment="Left" Height="36" Margin="486.259,107,0,0" RadiusY="4" RadiusX="3" Stroke="#FF060606" VerticalAlignment="Top" Width="378.851" Fill="Black"/>
+        <DataGrid x:Name="dgCoincidencias" HorizontalAlignment="Left" Margin="49,148,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.833,-0.538" Width="404" Height="275" CanUserReorderColumns="False"/>
+        <Rectangle HorizontalAlignment="Left" Height="471" Margin="486,107,0,0" Stroke="#FF060606" VerticalAlignment="Top" Width="379" RadiusX="3" RadiusY="4" StrokeThickness="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="36" Margin="486,107,0,0" RadiusY="4" RadiusX="3" Stroke="#FF060606" VerticalAlignment="Top" Width="379" Fill="Black"/>
         <Label Content="Datos Personales:" HorizontalAlignment="Left" Margin="613,110,0,0" VerticalAlignment="Top" BorderBrush="#FFEEDFDF" Foreground="#FFF7EFEF" RenderTransformOrigin="0.502,-0.002" FontSize="14.667"/>
-        <Label Content="Cedula:" HorizontalAlignment="Left" Margin="508.58,152,0,0" VerticalAlignment="Top"/>
-        <Label Content="Nombres:" HorizontalAlignment="Left" Margin="508.58,177.96,0,0" VerticalAlignment="Top"/>
-        <Label Content="Apellidos:" HorizontalAlignment="Left" Margin="509.184,203.92,0,0" VerticalAlignment="Top"/>
-        <Label Content="Dirección:" HorizontalAlignment="Left" Margin="509.184,229.88,0,0" VerticalAlignment="Top"/>
-        <Label Content="Teléfono:" HorizontalAlignment="Left" Margin="508.58,255.84,0,0" VerticalAlignment="Top"/>
-        <Label Content="Email:" HorizontalAlignment="Left" Margin="508.58,281.8,0,0" VerticalAlignment="Top"/>
-        <Label Content="Estatus:" HorizontalAlignment="Left" Margin="507.87,333.72,0,0" VerticalAlignment="Top"/>
-        <Label Content="Fecha de Nacimiento:" HorizontalAlignment="Left" Margin="508.58,307.76,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.594,-0.761"/>
-        <TextBox x:Name="txtCedula" HorizontalAlignment="Left" Height="23" Margin="575.12,154.96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtNombres" HorizontalAlignment="Left" Height="23" Margin="575.12,180.92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"/>
-        <TextBox x:Name="txtApellidos" HorizontalAlignment="Left" Height="23" Margin="575.12,206.88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"/>
-        <TextBox x:Name="txtDireccion" HorizontalAlignment="Left" Height="23" Margin="575.12,232.84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"/>
-        <TextBox x:Name="txtTelefono" HorizontalAlignment="Left" Height="23" Margin="575.12,258.8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="575.12,284.76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"/>
-        <TextBox x:Name="txtEstatus" HorizontalAlignment="Left" Height="23" Margin="575.12,336.68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnGuardar" Content="GUARDAR" HorizontalAlignment="Left" Margin="516.184,378,0,0" VerticalAlignment="Top" Width="323.936" Height="31.96" Click="btnGuardar_Click"/>
-        <DatePicker x:Name="dtFechaNacimiento" HorizontalAlignment="Left" Margin="637.613,309.72,0,0" VerticalAlignment="Top" Width="202.507"/>
+        <Label Content="Cedula:" HorizontalAlignment="Left" Margin="509,152,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nombres:" HorizontalAlignment="Left" Margin="509,178,0,0" VerticalAlignment="Top"/>
+        <Label Content="Apellidos:" HorizontalAlignment="Left" Margin="509,204,0,0" VerticalAlignment="Top"/>
+        <Label Content="Dirección:" HorizontalAlignment="Left" Margin="509,230,0,0" VerticalAlignment="Top"/>
+        <Label Content="Teléfonos:" HorizontalAlignment="Left" Margin="509,419,0,0" VerticalAlignment="Top"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="509,256,0,0" VerticalAlignment="Top"/>
+        <Label Content="Estatus:" HorizontalAlignment="Left" Margin="44,458,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fecha de Nacimiento:" HorizontalAlignment="Left" Margin="509,284,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.594,-0.761"/>
+        <TextBox x:Name="txtCedula" HorizontalAlignment="Left" Height="23" Margin="575,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtNombres" HorizontalAlignment="Left" Height="23" Margin="575,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"/>
+        <TextBox x:Name="txtApellidos" HorizontalAlignment="Left" Height="23" Margin="575,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"/>
+        <TextBox x:Name="txtDireccion" HorizontalAlignment="Left" Height="23" Margin="575,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="575,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"/>
+        <Button x:Name="btnGuardar" Content="GUARDAR" HorizontalAlignment="Left" Margin="514,526,0,0" VerticalAlignment="Top" Width="328" Height="32" Click="btnGuardar_Click"/>
+        <DatePicker x:Name="dtFechaNacimiento" HorizontalAlignment="Left" Margin="638,285,0,0" VerticalAlignment="Top" Width="204"/>
+        <ComboBox x:Name="cbEstatus" HorizontalAlignment="Left" Margin="119,463,0,0" VerticalAlignment="Top" Width="85"/>
+        <Label Content="Edad:" HorizontalAlignment="Left" Margin="765,152,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtEdad" HorizontalAlignment="Left" Height="23" Margin="809,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" IsReadOnlyCaretVisible="True"/>
+        <Label Content="Lugar de Nacimiento:" HorizontalAlignment="Left" Margin="509,310,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.528,-0.346"/>
+        <Label Content="Estado Civil:" HorizontalAlignment="Left" Margin="702,310,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.945,-1.5"/>
+        <ComboBox x:Name="cbEstadoCivil" HorizontalAlignment="Left" Margin="775,312,0,0" VerticalAlignment="Top" Width="67" RenderTransformOrigin="0.851,0.545">
+            <ComboBoxItem Content="Casado"/>
+            <ComboBoxItem Content="Soltero"/>
+            <ComboBoxItem Content="Viudo"/>
+        </ComboBox>
+        <Label Content="Profesión:" HorizontalAlignment="Left" Margin="509,361,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbProfesion" HorizontalAlignment="Left" Margin="575,365,0,0" VerticalAlignment="Top" Width="220" Height="23">
+            <ComboBoxItem Content="Ing. de Sistemas"/>
+            <ComboBoxItem Content="Ing. en Electronico"/>
+        </ComboBox>
+        <Label Content="Lugar de Trabajo:" HorizontalAlignment="Left" Margin="509,388,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.237,0.231"/>
+        <ComboBox x:Name="cbLugarTrabajo" HorizontalAlignment="Left" Margin="613,392,0,0" VerticalAlignment="Top" Width="182" Height="23">
+            <ComboBoxItem Content="El Osito de Felpa"/>
+            <ComboBoxItem Content="Materiales y Suministros torres"/>
+            <ComboBoxItem Content="U.E La Candelaria"/>
+        </ComboBox>
+        <Button x:Name="btnAddLT" Content="A" HorizontalAlignment="Left" Margin="799,392,0,0" VerticalAlignment="Top" Width="20" Height="23" RenderTransformOrigin="0.909,0.348" />
+        <Button x:Name="btnVerLT" Content="V" HorizontalAlignment="Left" Margin="820,392,0,0" VerticalAlignment="Top" Width="22" Height="23" RenderTransformOrigin="0.909,0.348" />
+        <Button x:Name="btnAddProfesion" Content="A" HorizontalAlignment="Left" Margin="799,365,0,0" VerticalAlignment="Top" Width="20" Height="23" RenderTransformOrigin="0.909,0.348" />
+        <Button x:Name="btnVerProfesion" Content="V" HorizontalAlignment="Left" Margin="820,365,0,0" VerticalAlignment="Top" Width="22" Height="23" RenderTransformOrigin="0.909,0.348" />
+        <Button x:Name="btnAddLN" Content="A" HorizontalAlignment="Left" Margin="799,337,0,0" VerticalAlignment="Top" Width="20" Height="23" RenderTransformOrigin="0.909,0.348" />
+        <Button x:Name="btnVerLN" Content="V" HorizontalAlignment="Left" Margin="820,337,0,0" VerticalAlignment="Top" Width="22" Height="23" RenderTransformOrigin="0.909,0.348" />
+        <ComboBox x:Name="cbLugarNacimiento" HorizontalAlignment="Left" Margin="514,337,0,0" VerticalAlignment="Top" Width="281" Height="23"/>
+        <DataGrid x:Name="dgTelefonos" HorizontalAlignment="Left" Margin="514,450,0,0" VerticalAlignment="Top" Width="328" Height="71">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Numero:" Width="230" CanUserResize="False"/>
+                <DataGridComboBoxColumn ClipboardContentBinding="{x:Null}" Header="Tipo" Width="100" CanUserResize="False" SelectedValueBinding="{x:Null}" SelectedItemBinding="{x:Null}" TextBinding="{x:Null}"/>
+            </DataGrid.Columns>
+        </DataGrid>
 
     </Grid>
 </Window>
