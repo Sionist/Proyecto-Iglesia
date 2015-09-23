@@ -1,0 +1,12 @@
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Datos\bin\Debug\Datos.dll.config
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Datos\bin\Debug\Datos.dll
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Datos\bin\Debug\Datos.pdb
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Datos\bin\Debug\Entidades.dll
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Datos\bin\Debug\EntityFramework.dll
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Datos\bin\Debug\Entidades.pdb
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Datos\bin\Debug\EntityFramework.xml
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Datos\obj\Debug\Datos.dll
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Datos\obj\Debug\Datos.pdb

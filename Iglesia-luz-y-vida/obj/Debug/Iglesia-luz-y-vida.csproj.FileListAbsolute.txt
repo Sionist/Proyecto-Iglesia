@@ -1,0 +1,12 @@
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Iglesia-luz-y-vida\bin\Debug\Iglesia_luz_y_vida.exe
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Iglesia-luz-y-vida\bin\Debug\Iglesia_luz_y_vida.pdb
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Iglesia-luz-y-vida\obj\Debug\Iglesia-luz-y-vida.csprojResolveAssemblyReference.cache
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Iglesia-luz-y-vida\obj\Debug\MainWindow.baml
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Iglesia-luz-y-vida\obj\Debug\MainWindow.g.cs
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Iglesia-luz-y-vida\obj\Debug\App.g.cs
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Iglesia-luz-y-vida\obj\Debug\Iglesia_luz_y_vida_MarkupCompile.cache
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Iglesia-luz-y-vida\obj\Debug\Iglesia_luz_y_vida.g.resources
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Iglesia-luz-y-vida\obj\Debug\Iglesia_luz_y_vida.Properties.Resources.resources
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Iglesia-luz-y-vida\obj\Debug\Iglesia-luz-y-vida.csproj.GenerateResource.Cache
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Iglesia-luz-y-vida\obj\Debug\Iglesia_luz_y_vida.exe
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Iglesia-luz-y-vida\obj\Debug\Iglesia_luz_y_vida.pdb
