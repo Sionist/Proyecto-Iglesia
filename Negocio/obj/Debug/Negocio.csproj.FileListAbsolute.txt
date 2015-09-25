@@ -1,4 +1,3 @@
-C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
 C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Negocio\bin\Debug\Negocio.dll
 C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Negocio\bin\Debug\Negocio.pdb
 C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Negocio\bin\Debug\Datos.dll
@@ -7,5 +6,6 @@ C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\
 C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Negocio\bin\Debug\Datos.pdb
 C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Negocio\bin\Debug\Entidades.pdb
 C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
 C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Negocio\obj\Debug\Negocio.dll
 C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Negocio\obj\Debug\Negocio.pdb

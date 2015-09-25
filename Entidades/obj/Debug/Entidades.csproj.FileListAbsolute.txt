@@ -2,4 +2,3 @@ C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\
 C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Entidades\bin\Debug\Entidades.pdb
 C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Entidades\obj\Debug\Entidades.dll
 C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Entidades\obj\Debug\Entidades.pdb
-C:\Users\gustavorafael\Documents\Visual Studio 2013\Projects\Iglesia-luz-y-vida\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
